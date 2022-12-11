@@ -14,7 +14,7 @@ class AddCircle(Scene):
 class CreateCircle(Scene):
     def construct(self):
         circle = Circle()
-        circle.set_fill(PINK, opacity=0.5)
+        circle.set_fill(PINK, opacity = 0.5)
 
         self.play(Create(circle))
         self.wait()
@@ -24,7 +24,7 @@ class CreateCircle(Scene):
 class SquareToCircle(Scene):
     def construct(self):
         circle = Circle()
-        circle.set_fill(PINK, opacity=0.5)
+        circle.set_fill(PINK, opacity = 0.5)
         square = Square()
         square.rotate(PI / 4)
 
